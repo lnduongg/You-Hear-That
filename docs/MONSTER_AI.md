@@ -4,6 +4,16 @@
 
 A predefined sequence of scares would make the monster predictable. The goal was to select behaviors based on the changing game situation while avoiding visible, implausible repositioning.
 
+## Supporting Navigation Setup
+
+The camper's navigation and waypoint system is one of the inputs influencing the game state and monster behavior.
+
+| Camper NavMeshAgent | Waypoint layout |
+|:--:|:--:|
+| ![NavMeshAgent settings in Unity](../media/navmesh-agent.png) | ![Waypoint nodes in Unity environment](../media/waypoint-map.png) |
+
+*Figures 4-3 and 4-4 show supporting gameplay navigation. These images do not directly visualize the monster's Utility AI decisions; a short gameplay capture or AI debug overlay would be better for that.*
+
 ## Implementation
 
 The provided scripts contain `MonsterUtilityAI.cs`, `MonsterAction.cs`, and `Consideration.cs` with subclasses such as `DistanceConsideration`, `VisibilityConsideration`, `TimePressureConsideration`, `NPCMovementConsideration`, and `UnpredictableConsideration`.

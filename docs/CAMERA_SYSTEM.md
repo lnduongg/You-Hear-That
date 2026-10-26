@@ -4,6 +4,14 @@
 
 The player needs to monitor multiple places in a forest without necessarily rendering a separate live image for all 12 locations simultaneously.
 
+![In-game CCTV surveillance viewpoint](../media/cctv-screen.png)
+
+*Figure 5-3: in-game camera monitoring screen.*
+
+![Camera viewpoint configuration in Unity](../media/camera-inspector.png)
+
+*Figure 4-2: surveillance viewpoints in the Unity editor.*
+
 ## Design
 
 `CameraSystem.cs` keeps an array of camera point transforms and moves **one Unity Camera** between these transforms when the player selects another viewpoint. The camera output is shown on a physical monitor using Render Texture, creating an in-world surveillance interface.

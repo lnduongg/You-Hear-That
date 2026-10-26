@@ -15,6 +15,12 @@ The 2026 graduation report (section 5.3) records six successful black-box checks
 
 These six cases are **not** a complete automated regression suite and do not prove that all combinations of choices or all endings were tested exhaustively.
 
+## Performance Capture from Graduation Report
+
+![Unity Profiler screenshot from the graduation report](../media/profiler.png)
+
+*Figure 5-6: profiler screenshot reported in the thesis; this is not a new benchmark.*
+
 ## Reported Performance
 
 The graduation report (section 5.4) describes testing on an Acer Nitro 5 with RTX 3050 Laptop GPU using Unity Profiler. Its stated observations are:

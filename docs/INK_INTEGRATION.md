@@ -4,6 +4,14 @@
 
 Connect a branching horror story to the physical state of the game: what the camper does, what the player knows, and how threatening the situation becomes.
 
+![Radio dialogue and choices in the game](../media/radio-dialogue.png)
+
+*Figure 5-4: player radio interaction.*
+
+![Trust and Time Pressure values in the Unity game state](../media/game-state.png)
+
+*Figure 5-5: debugging view of Trust and Time Pressure.*
+
 ## Implementation
 
 The game uses an Ink story file (`You Hear That.ink`) and a Unity dialogue manager (`InkDialogueManager.cs`). The script owns much of the narrative choice structure, while Unity handles in-game side effects.

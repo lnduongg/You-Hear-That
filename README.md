@@ -7,13 +7,26 @@
 
 > **Portfolio note:** This repository presents the game's design and implementation. It is not a downloadable Unity project. A public playable build and complete source repository have not yet been added.
 
-<!-- Add a gameplay GIF here once available: ![Gameplay overview](media/gameplay.gif) -->
+![You Hear That? — ranger lookout and surveillance workstation](media/tower-gameplay.png)
+
+*In-game screenshot: the ranger's workstation and surveillance monitor (graduation report, Figure 5-2).*
 
 ## Overview
 
 *You Hear That?* is a 3D psychological horror game about a night-shift forest ranger who must guide a lost camper over the radio while monitoring 12 surveillance viewpoints. Players make decisions using incomplete information as a mysterious presence interferes with the camera network and their rescue attempt.
 
 The project combines **indirect player interaction**, **branching dialogue**, **visibility-aware enemy behavior**, and **in-world (diegetic) interfaces**. Different choices and game-state conditions lead to good, bad, or secret outcomes.
+
+## Gameplay Screenshots
+
+| Surveillance camera | Radio dialogue |
+|:--:|:--:|
+| ![CCTV viewpoint displayed on an in-world monitor](media/cctv-screen.png) | ![Radio dialogue and response selection](media/radio-dialogue.png) |
+| CCTV monitoring system | Ink-powered dialogue UI |
+
+![You Hear That? main menu](media/cover.png)
+
+*Screenshots extracted from the author's 2026 graduation report. Animated demonstrations of camera switching and monster behavior are not included yet.*
 
 ## My Role
 
@@ -59,6 +72,14 @@ flowchart TD
 
 *Simplified diagram of the main gameplay relationships; not a complete UML dependency map.*
 
+## Development Screenshots
+
+| Surveillance camera setup | Unity Profiler |
+|:--:|:--:|
+| ![Unity Inspector with surveillance camera positions](media/camera-inspector.png) | ![Unity Profiler capture included in graduation report](media/profiler.png) |
+
+*More implementation evidence is documented in the technical breakdowns linked below.*
+
 ## Reported Testing & Performance
 
 The graduation report documents functional tests for camera switching, object interaction, NPC navigation, key collection, AI camera interference, and secret-ending activation. It also reports testing on an **Acer Nitro 5 with an RTX 3050 Laptop GPU**, with approximately **60–75 FPS** during typical gameplay and dips to around **55 FPS** during rapid camera switches.
@@ -68,7 +89,7 @@ These values are **reported observations from the graduation project**, not inde
 ## Screenshots & Playable Demo
 
 - **Gameplay video:** [YouTube demo](https://www.youtube.com/watch?v=E_q-wjqsOGI)
-- **Gameplay screenshots:** To be added from the final build
+- **Gameplay screenshots:** See the Gameplay Screenshots section above (extracted from the graduation report)
 - **Playable Windows build:** To be added after packaging and verification
 - **Code samples:** To be added after code cleanup and dependency/asset review
 
