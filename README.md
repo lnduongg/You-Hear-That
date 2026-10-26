@@ -3,13 +3,25 @@
 
 **Solo Graduation Project (2026)** · **Unity / C# / URP / Ink / NavMesh**
 
+## Download & Play
+
+**You Hear That? — Windows PC**
+
+[Download the game on itch.io](https://lnduongg.itch.io/you-hear-that)
+
 [Watch Gameplay Demo](https://www.youtube.com/watch?v=E_q-wjqsOGI) · [Developer GitHub](https://github.com/lnduongg)
 
-> **Portfolio note:** This repository presents the game's design and implementation. It is not a downloadable Unity project. A public playable build and complete source repository have not yet been added.
+### How to Play
+1. Download the Windows ZIP file.
+2. Extract the archive.
+3. Run YouHearThat.exe.
 
-![You Hear That? — ranger lookout and surveillance workstation](media/tower-gameplay.png)
+### Platform
+- Windows 10/11 (64-bit)
+- Keyboard and Mouse
 
-*In-game screenshot: the ranger's workstation and surveillance monitor (graduation report, Figure 5-2).*
+
+![You Hear That? — ranger lookout and surveillance workstation](media/cover.png)
 
 ## Overview
 
@@ -24,7 +36,7 @@ The project combines **indirect player interaction**, **branching dialogue**, **
 | ![CCTV viewpoint displayed on an in-world monitor](media/cctv-screen.png) | ![Radio dialogue and response selection](media/radio-dialogue.png) |
 | CCTV monitoring system | Ink-powered dialogue UI |
 
-![You Hear That? main menu](media/cover.png)
+![You Hear That? main menu](media/tower-gameplay.png)
 
 *Screenshots extracted from the author's 2026 graduation report. Animated demonstrations of camera switching and monster behavior are not included yet.*
 
