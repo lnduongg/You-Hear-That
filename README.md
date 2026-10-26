@@ -11,6 +11,9 @@
 
 [Watch Gameplay Demo](https://www.youtube.com/watch?v=E_q-wjqsOGI) · [Developer GitHub](https://github.com/lnduongg)
 
+> **Language Notice:** The game currently supports Vietnamese only.
+> English localization is not yet available.
+
 ### How to Play
 1. Download the Windows ZIP file.
 2. Extract the archive.
