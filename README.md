@@ -118,7 +118,6 @@ The graduation report describes a completed playable build with multiple endings
 - [Surveillance system: a single active rendering camera](docs/CAMERA_SYSTEM.md)
 - [Ink and Unity integration](docs/INK_INTEGRATION.md)
 - [Testing, profiler data & limitations](docs/TESTING.md)
-- [Portfolio publishing checklist](PUBLISHING_CHECKLIST.md)
 
 ## Contact
 
